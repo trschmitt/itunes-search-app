@@ -1,0 +1,14 @@
+html {
+  font-family: fantasy;
+}
+body {
+  background-color: #CC9475;
+  color: #DAD6ED;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
