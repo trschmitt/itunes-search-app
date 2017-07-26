@@ -1,5 +1,6 @@
 html {
   font-family: fantasy;
+  line-height: 1.4em;
 }
 body {
   background-color: #CC9475;
@@ -11,4 +12,20 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+
+#list {
+  display: flex;
+  flex-flow: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #4FA2C5;
+  width: 12%;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
 }
