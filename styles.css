@@ -2,6 +2,33 @@ html {
   font-family: fantasy;
   line-height: 1.4em;
 }
+
+h1 {
+  font-size: 5em;
+}
+
+.player, audio  {
+  width: 90%;
+  text-align: center;
+}
+
+.search {
+  width: 70%;
+  text-align: center;
+}
+
+input {
+  width: 50%;
+  font-family: fantasy;
+}
+
+button {
+  width: 10%;
+  padding: 5px;
+  font-family: fantasy;
+  text-align: center;
+}
+
 body {
   background-color: #CC9475;
   color: #DAD6ED;
@@ -12,6 +39,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 
