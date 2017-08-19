@@ -8,18 +8,20 @@
 <body>
   <div class="container">
     <header>
-      <h1>Tristan's Music Search Site</h1>
+      <h1>Music Search</h1>
+      <!-- <h4>By Tristan</h4> -->
     </header>
-    <section class="player">
-      <audio class="music-player" controls="controls" src=""></audio>
+    <section id="player">
+      <audio class="music-player" controls="controls"  autoplay></audio>
     </section>
     <section class="search">
       <form class="search-form">
-        <input type="search" name="term" value="">
-        <button type="submit">Search</button>
+        <input class="search" type="text" value="">
+        <button id="button" type="submit">Search</button>
       </form>
+      <h2>Search Results</h2>
+      <h4>Select Image to preview song.</h4>
     </section>
-    <h2>Results</h2>
     <section class="results">
       <ul id="list">
 

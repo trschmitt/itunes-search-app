@@ -3,56 +3,95 @@ html {
   line-height: 1.4em;
 }
 
+header {
+  text-align: center;
+}
+
 h1 {
   font-size: 5em;
 }
 
-.player, audio  {
+#player,
+audio {
   width: 90%;
   text-align: center;
 }
 
+input:hover {
+  background-color: #5B6F94;
+}
+
 .search {
+  text-align: center;
+}
+
+input.search {
   width: 70%;
   text-align: center;
-}
-
-input {
-  width: 50%;
+  width: 400px;
   font-family: fantasy;
+  font-size: 1em;
+  padding: 5px;
+  border-radius: 10px;
+  outline-color: #5B6F94;
+  border: none;
 }
 
-button {
-  width: 10%;
-  padding: 5px;
+#button:hover {
+  background-color: #5B6F94;
+}
+
+#button {
+  border-radius: 10px;
+  border: none;
+  background-color: #b1a5b8;
+  width: 150px;
+  padding: 5px 20px 5px 10px;
   font-family: fantasy;
   text-align: center;
+  color: white;
+  font-size: 1em;
 }
 
 body {
-  background-color: #CC9475;
-  color: #DAD6ED;
+  background-image: url("./img/wallhaven-3335.jpg");
+  background-attachment: fixed;
+  color: #232A54;
 }
 
 .container {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
 }
 
+a {
+  color: #c99f66;
+}
+
+a:hover {
+  color: #aba5ae;
+}
 
 #list {
   display: flex;
   flex-flow: wrap;
+  justify-content: space-between;
   list-style: none;
   padding: 0;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #5B6F94;
 }
 
 li {
-  background-color: #4FA2C5;
-  width: 12%;
+  border-radius: 10px;
+  background-color: #505b3c;
+  width: 100px;
+  height: 250px;
   margin: 5px;
   padding: 5px;
   text-align: center;
